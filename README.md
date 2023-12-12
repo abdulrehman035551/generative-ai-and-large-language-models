@@ -61,6 +61,33 @@ Fine-tuning in the context of machine learning, and specifically with large lang
 * Even smaller models with fewer parameters can be fine-tuned for specific tasks, and this process is often quicker than training a model from scratch.
 
 
+sesssion date(12/12/23)
+In our labs we are using Base model T-5 encoder-decoder-model to train out model
+
+-prompting and prompt engineering
+.Prompting in LLM Training:
+In LLM training, prompting involves exposing the model to diverse text data during the learning process. These prompts, comprising sentences and paragraphs, help the model understand language patterns and context.
+.Prompt Engineering in LLM Training:
+Prompt engineering in LLM training focuses on optimizing the training data. It includes tasks such as cleaning data, introducing variations for robustness, designing task-specific prompts, balancing data representation, and leveraging transfer learning for fine-tuning. Effective prompt engineering enhances the model's performance and generalization.
+![image](https://github.com/abdulrehman035551/generative-ai-and-large-language-models/assets/96192529/8f1d4536-c121-4402-9944-57dbe913d161)
+please check this image for better understaing 
+1-Zero-shot Inference:
+Zero-shot prompting refers to a methodology wherein a substantial language model (LLM) is tasked with executing a task for which it has not received explicit training.
+![image](https://github.com/abdulrehman035551/generative-ai-and-large-language-models/assets/96192529/77a3fd3e-e08a-4f6b-b686-1beac03f5866)
+please check this image for better understaing 
+2-One-shot Inference:
+Remember, this is needed in a small model. If we pass an example to our model along with our question, it aids in better understanding of the prompt.
+![image](https://github.com/abdulrehman035551/generative-ai-and-large-language-models/assets/96192529/38c02967-54ed-41a7-a860-1ffc33d8ae6c)
+please check this image for better understaing 
+3-Few-shot Inference:
+Remember, this is needed in an even-smaller model.  we pass many examples to our model along with our question, it enhances understanding of the prompt.
+![image](https://github.com/abdulrehman035551/generative-ai-and-large-language-models/assets/96192529/14a68a6b-e617-4ee8-9347-3eda58800173)
+please check this image for better understaing 
+
+
+
+
+
 
 
 
